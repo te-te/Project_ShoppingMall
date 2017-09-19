@@ -1,0 +1,78 @@
+#loginForm {
+  display: inline-block;
+  background-color: white;
+  border: #555555 2px dashed;
+  width: 800px;
+  height: 500px;
+}
+#loginForm img {
+  margin-top: 20px;
+  width: 200px;
+  height: auto;
+}
+#loginForm form {
+  display: inline-block;
+}
+#loginForm li {
+  list-style: none;
+  color: white;
+  background-color: #2d2d2d;
+  font-size: 20px;
+  line-height: 50px;
+  width: 150px;
+}
+#loginForm a {
+  text-decoration: none;
+  color: white;
+}
+#loginForm td {
+  font-size: 25px;
+  font-weight: bold;
+}
+#loginForm #input_id {
+  font-size: 20px;
+  width: 300px;
+}
+#loginForm #input_pw {
+  font-size: 20px;
+  width: 286px;
+}
+#loginForm #input_submit {
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 61px;
+}
+#h_div_loginComplete {
+  float: right;
+  background-color: white;
+  border: #555555 2px dashed;
+  width: 250px;
+  height: 90px;
+  margin-right: 50px;
+}
+#h_div_loginComplete ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#h_div_loginComplete ul li {
+  list-style: none;
+  color: white;
+  background-color: #2d2d2d;
+  float: left;
+  line-height: 15px;
+  padding: 5px;
+  width: 51px;
+}
+#h_div_loginComplete a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+#h_div_loginComplete span {
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+}

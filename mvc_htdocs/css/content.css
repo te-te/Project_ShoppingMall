@@ -1,0 +1,134 @@
+.c_div_itemList {
+  display: inline-block;
+  width: 280px;
+  height: 340px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: black 2px dotted;
+  background-color: #EEDDDD;
+}
+.c_div_itemList img {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 5px;
+  border-bottom: #888888 1px solid;
+}
+.c_div_itemList ul {
+  padding: 0;
+  margin: 0;
+}
+.c_div_itemList ul li {
+  list-style: none;
+}
+.c_div_itemList .itemName {
+  font-size: 17px;
+}
+.c_div_itemList .itemPrice {
+  font-weight: bold;
+  font-size: 18px;
+  color: blue;
+}
+#c_div_itemInfo {
+  background-color: #DDDDDD;
+  padding: 10px;
+}
+#c_div_itemInfo li {
+  list-style: none;
+}
+#info_basic table {
+  display: inline-block;
+}
+#info_basic table img {
+  width: 300px;
+  height: 300px;
+  border: black 2px dotted;
+}
+#info_basic table tr td ul #itemName {
+  font-size: 20px;
+  font-weight: bold;
+}
+#info_basic table tr td ul #itemPrice {
+  font-size: 18px;
+}
+#info_basic table tr td ul #buyButton {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #DB0000;
+  line-height: 60px;
+}
+#info_basic a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 130px;
+}
+#info_detail .tab {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#info_detail .tab li {
+  list-style: none;
+  color: black;
+  background-color: white;
+  float: left;
+  line-height: 30px;
+}
+#info_detail .tab .non_selected {
+  border-left: #9d9d9d 1px solid;
+  border-right: #9d9d9d 1px solid;
+  border-top: #9d9d9d 1px solid;
+}
+#info_detail .tab .selected {
+  border-top: #DB0000 2px solid;
+}
+#info_detail a {
+  text-decoration: none;
+  color: black; display: block;
+  width: 130px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#c_div_buyForm img {
+  width: 400px;
+  height: 400px;
+}
+#purchaseList {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: white;
+  font-weight: bold;
+}
+#c_div_myPage li:nth-child(1) {
+  background-color: #9d9d9d;
+  color: white;
+}
+#c_div_myPage li {
+  list-style: none;
+  display: inline-block;
+  background-color: #CCCCCC;
+  width: 150px;
+  height: 20px;
+}
+#c_div_notFound {
+  color: blue;
+}
+#c_div_join_form {
+  display: inline-block;
+}
+#c_div_join_form li {
+  list-style: none;
+}
+#c_div_join_form form {
+  text-align: left;
+  width: 400px;
+}
+#c_div_join_form #button {
+}
+#info_detail ul:nth-child(5){
+  text-align: left;
+  line-height: 30px;
+}

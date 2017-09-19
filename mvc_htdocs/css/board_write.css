@@ -1,0 +1,29 @@
+.board_write{
+    width:800px;
+    margin :0 auto;
+    text-align: center;
+}
+#write_name{
+    width:550px;
+}
+#write_body{
+    width:550px;
+    height:300px;
+}
+.board_write th {
+    width:100px;
+    padding:5px;
+    text-align:right;
+    vertical-align: top
+}
+#file_brt {
+    display:inline;
+    border : 1px solid #a5a5a5;
+    padding: 3px;
+}
+#file_name {
+    display: inline;
+}
+#write_file {
+    margin: 10px 0;
+}
